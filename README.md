@@ -1,4 +1,4 @@
-# Desafio-JS
+# VNW-Desafio-JS
 ###
 # Tecnologias
 * JavaScript
