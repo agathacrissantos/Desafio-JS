@@ -36,14 +36,14 @@ function meusGostos(filme, musica) {
 meusGostos("A procura da felicidade", "Someone You Loved")
 
 /*7*/
-function triple(num) {
+function triplo(num) {
     return num * 3
 }
-console.log(triple(3))
+console.log(triplo(3))
 
 /*8*/
 let temSaldo = 100
-if (temSaldo == 100) {
+if (temSaldo === 100) {
     console.log(true)
 } else {
     console.log(false)
@@ -100,33 +100,37 @@ let cadastro = [
         nome:"Agatha",
         idade:33,
         telefone:1199999-9999,
-        amigos:("Paty","Ana","Suzy","Jéssica")
+        amigos:["Paty","Ana","Suzy","Jéssica"]
     },
     {
         nome:"Juan",
         idade:9,
         telefone:1198888-8888,
-        amigos:("Victor","Pedro","Aniely","Mel")
+        amigos:["Victor","Pedro","Aniely","Mel"]
     },
     {
         nome:"Felipe",
         idade:5,
         telefone:1197777-7777,
-        amigos:("Tayla","João","Lorena","Bernardo")
+        amigos:["Tayla","João","Lorena","Bernardo"]
     },
     {
         nome:"Diego",
         idade:34,
         telefone:1196666-6666,
-        amigos:("Mauro","Cesar","Lucas","Danilo")
+        amigos:["Mauro","Cesar","Lucas","Danilo"]
     },
     {
         nome:"Marcos",
         idade:22,
         telefone:1195555-5555,
-        amigos:("Tania","Vitoria","Erick","Tiago")
+        amigos:["Tania","Vitoria","Erick","Tiago"]
     },
 ]
 
 /*20*/
-console.log("Paty","Victor","Lorena","Danilo","Vitoria")
+console.log(cadastro[0].amigos[0])
+console.log(cadastro[1].amigos[1])
+console.log(cadastro[2].amigos[2])
+console.log(cadastro[3].amigos[3])
+console.log(cadastro[4].amigos[1])
